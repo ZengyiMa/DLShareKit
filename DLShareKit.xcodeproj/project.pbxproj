@@ -15,6 +15,14 @@
 		852F82A51D74519000B3B846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 852F82A31D74519000B3B846 /* LaunchScreen.storyboard */; };
 		852F82B01D74519000B3B846 /* DLShareKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 852F82AF1D74519000B3B846 /* DLShareKitTests.m */; };
 		852F82BB1D74519000B3B846 /* DLShareKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 852F82BA1D74519000B3B846 /* DLShareKitUITests.m */; };
+		852F82DB1D7451A100B3B846 /* DLShareKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 852F82CA1D7451A100B3B846 /* DLShareKit.m */; };
+		852F82DC1D7451A100B3B846 /* DLShareMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 852F82CD1D7451A100B3B846 /* DLShareMessage.m */; };
+		852F82DD1D7451A100B3B846 /* DLShareQQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 852F82D01D7451A100B3B846 /* DLShareQQ.m */; };
+		852F82DE1D7451A100B3B846 /* DLShareWeChat.m in Sources */ = {isa = PBXBuildFile; fileRef = 852F82D21D7451A100B3B846 /* DLShareWeChat.m */; };
+		852F82DF1D7451A100B3B846 /* DLShareWeChatSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 852F82D41D7451A100B3B846 /* DLShareWeChatSession.m */; };
+		852F82E01D7451A100B3B846 /* DLShareWeChatTimeLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 852F82D61D7451A100B3B846 /* DLShareWeChatTimeLine.m */; };
+		852F82E11D7451A100B3B846 /* DLShareWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = 852F82D81D7451A100B3B846 /* DLShareWeibo.m */; };
+		852F82E21D7451A100B3B846 /* UIImage+DLShareKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 852F82DA1D7451A100B3B846 /* UIImage+DLShareKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,24 @@
 		852F82B61D74519000B3B846 /* DLShareKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DLShareKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		852F82BA1D74519000B3B846 /* DLShareKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLShareKitUITests.m; sourceTree = "<group>"; };
 		852F82BC1D74519000B3B846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		852F82C91D7451A100B3B846 /* DLShareKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLShareKit.h; sourceTree = "<group>"; };
+		852F82CA1D7451A100B3B846 /* DLShareKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLShareKit.m; sourceTree = "<group>"; };
+		852F82CB1D7451A100B3B846 /* DLShareKitConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLShareKitConfig.h; sourceTree = "<group>"; };
+		852F82CC1D7451A100B3B846 /* DLShareMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLShareMessage.h; sourceTree = "<group>"; };
+		852F82CD1D7451A100B3B846 /* DLShareMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLShareMessage.m; sourceTree = "<group>"; };
+		852F82CE1D7451A100B3B846 /* DLShareProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLShareProtocol.h; sourceTree = "<group>"; };
+		852F82CF1D7451A100B3B846 /* DLShareQQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLShareQQ.h; sourceTree = "<group>"; };
+		852F82D01D7451A100B3B846 /* DLShareQQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLShareQQ.m; sourceTree = "<group>"; };
+		852F82D11D7451A100B3B846 /* DLShareWeChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLShareWeChat.h; sourceTree = "<group>"; };
+		852F82D21D7451A100B3B846 /* DLShareWeChat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLShareWeChat.m; sourceTree = "<group>"; };
+		852F82D31D7451A100B3B846 /* DLShareWeChatSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLShareWeChatSession.h; sourceTree = "<group>"; };
+		852F82D41D7451A100B3B846 /* DLShareWeChatSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLShareWeChatSession.m; sourceTree = "<group>"; };
+		852F82D51D7451A100B3B846 /* DLShareWeChatTimeLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLShareWeChatTimeLine.h; sourceTree = "<group>"; };
+		852F82D61D7451A100B3B846 /* DLShareWeChatTimeLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLShareWeChatTimeLine.m; sourceTree = "<group>"; };
+		852F82D71D7451A100B3B846 /* DLShareWeibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLShareWeibo.h; sourceTree = "<group>"; };
+		852F82D81D7451A100B3B846 /* DLShareWeibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLShareWeibo.m; sourceTree = "<group>"; };
+		852F82D91D7451A100B3B846 /* UIImage+DLShareKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DLShareKit.h"; sourceTree = "<group>"; };
+		852F82DA1D7451A100B3B846 /* UIImage+DLShareKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DLShareKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +127,7 @@
 		852F82941D74519000B3B846 /* DLShareKit */ = {
 			isa = PBXGroup;
 			children = (
+				852F82C81D7451A100B3B846 /* DLShareKit */,
 				852F82981D74519000B3B846 /* AppDelegate.h */,
 				852F82991D74519000B3B846 /* AppDelegate.m */,
 				852F829B1D74519000B3B846 /* ViewController.h */,
@@ -138,6 +165,31 @@
 				852F82BC1D74519000B3B846 /* Info.plist */,
 			);
 			path = DLShareKitUITests;
+			sourceTree = "<group>";
+		};
+		852F82C81D7451A100B3B846 /* DLShareKit */ = {
+			isa = PBXGroup;
+			children = (
+				852F82C91D7451A100B3B846 /* DLShareKit.h */,
+				852F82CA1D7451A100B3B846 /* DLShareKit.m */,
+				852F82CB1D7451A100B3B846 /* DLShareKitConfig.h */,
+				852F82CC1D7451A100B3B846 /* DLShareMessage.h */,
+				852F82CD1D7451A100B3B846 /* DLShareMessage.m */,
+				852F82CE1D7451A100B3B846 /* DLShareProtocol.h */,
+				852F82CF1D7451A100B3B846 /* DLShareQQ.h */,
+				852F82D01D7451A100B3B846 /* DLShareQQ.m */,
+				852F82D11D7451A100B3B846 /* DLShareWeChat.h */,
+				852F82D21D7451A100B3B846 /* DLShareWeChat.m */,
+				852F82D31D7451A100B3B846 /* DLShareWeChatSession.h */,
+				852F82D41D7451A100B3B846 /* DLShareWeChatSession.m */,
+				852F82D51D7451A100B3B846 /* DLShareWeChatTimeLine.h */,
+				852F82D61D7451A100B3B846 /* DLShareWeChatTimeLine.m */,
+				852F82D71D7451A100B3B846 /* DLShareWeibo.h */,
+				852F82D81D7451A100B3B846 /* DLShareWeibo.m */,
+				852F82D91D7451A100B3B846 /* UIImage+DLShareKit.h */,
+				852F82DA1D7451A100B3B846 /* UIImage+DLShareKit.m */,
+			);
+			path = DLShareKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +324,15 @@
 			files = (
 				852F829D1D74519000B3B846 /* ViewController.m in Sources */,
 				852F829A1D74519000B3B846 /* AppDelegate.m in Sources */,
+				852F82E11D7451A100B3B846 /* DLShareWeibo.m in Sources */,
+				852F82DB1D7451A100B3B846 /* DLShareKit.m in Sources */,
+				852F82DE1D7451A100B3B846 /* DLShareWeChat.m in Sources */,
+				852F82DF1D7451A100B3B846 /* DLShareWeChatSession.m in Sources */,
+				852F82DD1D7451A100B3B846 /* DLShareQQ.m in Sources */,
+				852F82E01D7451A100B3B846 /* DLShareWeChatTimeLine.m in Sources */,
+				852F82E21D7451A100B3B846 /* UIImage+DLShareKit.m in Sources */,
 				852F82971D74519000B3B846 /* main.m in Sources */,
+				852F82DC1D7451A100B3B846 /* DLShareMessage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
