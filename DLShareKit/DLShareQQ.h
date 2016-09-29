@@ -10,8 +10,8 @@
 #import "DLShareProtocol.h"
 #import "DLShareKitConfig.h"
 #import "DLShareKit.h"
-#import <TencentOpenAPI/TencentOAuth.h>
-#import <TencentOpenAPI/QQApiInterface.h>
+#import "TencentOpenAPI/TencentOAuth.h"
+#import "TencentOpenAPI/QQApiInterface.h"
 
 @interface DLShareQQ : NSObject<DLShareProtocol, QQApiInterfaceDelegate>
 
