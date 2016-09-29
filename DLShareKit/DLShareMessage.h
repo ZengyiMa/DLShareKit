@@ -6,7 +6,7 @@
 //  Copyright © 2016 WE. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #import "DLShareKit.h"
 
 @class DLShareKit;

@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
     s.authors      = {'MaZengyi' => 'semazengyi@gmail.com'}
     s.platform     = :ios, '7.0'
     s.source       = {:git => 'https://github.com/ZengyiMa/DLShareKit.git', :tag => s.version}
-    s.source_files = 'DLShareKit/DLShareKit/*.{h,m}'
+    s.source_files = 'DLShareKit/*.{h,m}'
     s.requires_arc = true
 end
